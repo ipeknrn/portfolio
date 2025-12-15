@@ -407,7 +407,7 @@ form .btn2{
 
 }
 
-/* -----------------css for small screens--------- */
+/* -----------------small screen--------- */
 
 @media only screen and (max-width: 600px){
     #header{
@@ -416,25 +416,58 @@ form .btn2{
     .header-text{
         margin-top: 100%;
         font-size: 16px;
+        text-align: center;
     }
-    .header-text h1{
-        font-size: 30px;
+    nav ul {
+    flex-direction: column;
+    background: #000;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
     }
 
+    nav ul li {
+    margin: 10px 0;
+    text-align: center;
+    }
+
+    .header-text h1 {
+    font-size: 28px;
+    }
+
+    .header-text p {
+    font-size: 16px;
+    }
     .sub-title{
         font-size: 40px;
     }
+
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
+
     .about-col-1{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        width: 100%;
+        flex-basis: 100%;
     }
+
+    .about-col-1 img {
+    max-width: 220px;
+    width: 90%;
+    }
+
     .about-col-2{
         font-size: 14px;
+        text-align: 90%;
     }
+
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
     }
  
+ 
+
