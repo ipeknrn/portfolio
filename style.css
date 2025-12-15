@@ -412,8 +412,11 @@ form .btn2{
 @media (max-width: 600px){
 
   #header{
-    min-height: 100vh;
-    background: url("images/phone-background.png") center/cover no-repeat;
+    background-image: url("images/phone-background.png") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh !important;
   }
 
  
@@ -459,6 +462,7 @@ form .btn2{
 }
  
  
+
 
 
 
