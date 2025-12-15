@@ -408,22 +408,27 @@ form .btn2{
 }
 
 /* -----------------small screen--------- */
+#header{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
 
 @media (max-width: 600px){
 
   #header{
-    min-height: 100vh;
-    background: url("images/phone-background.png") right center / cover no-repeat;
+    min-height: 100vh !important;
+    background: url("images/phone-background.png") right center / cover no-repeat !important;
   }
 
   nav ul{
-    position: static;
+    position: static !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
     padding: 10px 0;
-    background: transparent;
+    background: transparent !important;
   }
 
   nav ul li a{
@@ -431,9 +436,9 @@ form .btn2{
   }
 
   .header-text{
+    margin: 0 !important;
     padding-top: 140px;
     text-align: center;
-    margin: 0;
   }
 
   .header-text h1{
@@ -445,11 +450,3 @@ form .btn2{
     font-size: 16px;
   }
 }
- 
- 
-
-
-
-
-
-
